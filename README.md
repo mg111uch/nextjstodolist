@@ -4,5 +4,6 @@
 - No .css file used explicitly.
 - Each To-do is editable.
 - No use of any database for data persistence.
+- First Todo is by default.
 
-![Screenshot of Nextjs Todo List on Chrome Browser](/../images/Screenshot from 2023-08-14 23-04-07.png)
+![Screenshot from 2023-08-14 23-04-07](https://github.com/mg111uch/nextjstodolist/assets/42541370/a404b5f8-611d-49d9-b39b-20ccfdc6e999)
