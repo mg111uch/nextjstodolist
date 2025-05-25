@@ -4,9 +4,11 @@ import Todo from '../components/Todo';
 import TodoForm from '../components/TodoForm';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+
+const mykey = process.env.NEXT_PUBLIC_KEY
  
 const TodoPage = () => {
-    const [todos, setTodos] = useState([{id: '001', text: 'Nextjs'},]);
+    const [todos, setTodos] = useState([{id: '001', text: `NextJS`},{id: '002', text: `Key : ${mykey}`}]);
     
     const addTodo = (text) => {
         const newTodo = { 
